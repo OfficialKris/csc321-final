@@ -21,9 +21,9 @@ if (navbar != null)
     navbar.innerHTML = `
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-        <img src="/vite.svg" alt="Bootstrap" width="30" height="24">
-        Corporate Landing
+    <a class="navbar-brand" href="/#">
+        <img src="/cosmic.webp" alt="Bootstrap" width="35" height="35">
+        Space Corp.
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@ let carousel = document.querySelector('#app_carousel')
 if (carousel != null)
     carousel.innerHTML = `
   <!-- TODO: Testimonials -->
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="12000">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
         aria-label="Slide 1"></button>
@@ -57,42 +57,39 @@ if (carousel != null)
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" style="height: 14em;">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
           preserveAspectRatio="xMidYMid slice" focusable="false">
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
         </svg>
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <p class="opacity-75"><i>"Space Corp has been a game-changer for our satellite deployment needs. Their reliable launch services and impeccable attention to detail ensured our mission was a success. We couldn’t ask for a better partner in reaching orbit!"</i></p>
+            <h4><b>– Emily Chen, CEO, Orbital Analytics</b></h4>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" style="height: 14em">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
           preserveAspectRatio="xMidYMid slice" focusable="false">
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
         </svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <p class="opacity-75"><i>"From start to finish, Space Corp delivered excellence. Their team made the process seamless, and our satellite was launched on schedule with zero complications. They’re the gold standard in the industry!"</i></p>
+            <h4><b>– Raj Patel, CTO, Stellar Networks</b></h4>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" style="height: 14em">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
           preserveAspectRatio="xMidYMid slice" focusable="false">
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
         </svg>
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <p class="opacity-75"><i>"Working with Space Corp has been an incredible experience. Their cutting-edge technology and customer-centric approach gave us complete confidence in our launch. We look forward to partnering with them for future missions."</i></p>
+            <h4><b>– Sofia Alvarez, Director of Space Systems, NovaSat</b></h4>
           </div>
         </div>
       </div>
@@ -128,36 +125,15 @@ if (footer != null)
 
       </div>
 
-      <div class="col mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
+      <div class="col mb-3"> </div>
+      <div class="col mb-3"> </div>
 
       <div class="col mb-3">
-        <h5>Section</h5>
+        <h5>Site Nav</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="/about_us#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+          <li class="nav-item mb-2"><a href="/about_products#" class="nav-link p-0 text-body-secondary">Our Products</a></li>
         </ul>
       </div>
     </footer>

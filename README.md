@@ -17,7 +17,7 @@ The features are as listed:
 10. About products page
 11. About us page
 12. Product page
-13. Learn more section
+13. 404 page
 14. Site Nav
 15. Hero
 
