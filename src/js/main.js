@@ -16,7 +16,9 @@ domReady(() => {
     document.body.style.visibility = 'visible';
 });
 
-document.querySelector('#app_navbar').innerHTML = `
+let navbar = document.querySelector('#app_navbar')
+if (navbar != null) 
+    navbar.innerHTML = `
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
     <a class="navbar-brand" href="#">
@@ -29,13 +31,13 @@ document.querySelector('#app_navbar').innerHTML = `
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
+            <a id="page_home" class="page_item nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
             <a id="page_about_us" class="page_item nav-link" href="/about_us">About Us</a>
         </li>
         <li class="nav-item">
-            <a id="page_products" class="page_item nav-link" href="/about_products">Products</a>
-        </li>
-        <li class="nav-item">
-            <a id="page_home" class="page_item nav-link" href="/">Home</a>
+        <a id="page_products" class="page_item nav-link" href="/about_products">Products</a>
         </li>
         </ul>
     </div>
@@ -43,7 +45,9 @@ document.querySelector('#app_navbar').innerHTML = `
 </nav>
 `
 
-document.querySelector('#app_carousel').innerHTML = `
+let carousel = document.querySelector('#app_carousel') 
+if (carousel != null)
+    carousel.innerHTML = `
   <!-- TODO: Testimonials -->
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -103,7 +107,9 @@ document.querySelector('#app_carousel').innerHTML = `
     </button>
   </div>
   `
-document.querySelector('#app_footer').innerHTML = `
+let footer = document.querySelector('#app_footer')
+if (footer != null) 
+    footer.innerHTML = `
   <!-- Footer: Site Nav -->
   <div class="container">
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-3">
