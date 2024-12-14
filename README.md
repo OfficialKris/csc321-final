@@ -12,11 +12,11 @@ The features are as listed:
 5. Carousel
 6. Form
 7. Vite (for fast reload)
-8. Bootstrap Icons
+8. Product cards
 9. Cards
 10. About products page
 11. About us page
-12. Product page
+12. Modal
 13. 404 page
 14. Site Nav
 15. Hero
