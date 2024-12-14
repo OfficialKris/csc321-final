@@ -19,7 +19,7 @@ The features are as listed:
 12. Product page
 13. Learn more section
 14. Site Nav
-15. 
+15. Hero
 
 # Development
 
